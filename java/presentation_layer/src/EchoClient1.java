@@ -1,15 +1,23 @@
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
+import java.net.Inet4Address;
 
 /**
  * This module contains the presentaton logic of an Echo Client.
  *
  * @author M. L. Liu
  */
+//import session_layer.*
 public class EchoClient1 {
     static final String endMessage = ".";
 
     public static void main(String[] args) {
+
+//        MyClientDatagramSocket so = new MyClientDatagramSocket(3000);
+//        so.sendMessage(new Inet4Address("localhost"),3000,"200");
+
+
+
         InputStreamReader is = new InputStreamReader(System.in);
         BufferedReader br = new BufferedReader(is);
         try {

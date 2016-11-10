@@ -7,9 +7,9 @@ public class WriteToFileExample {
     public static void main(String[] args) {
         try {
 
-            String content = "This is the content to write into file";
+            String content = "Now this is the mother fucking content bitches!";
 
-            File file = new File("C:\\filename.txt");
+            File file = new File("C:\\test_folder\\filename.txt");
 
             // if file doesnt exists, then create it
             if (!file.exists()) {
